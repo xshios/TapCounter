@@ -13,6 +13,8 @@
 		AB111764204051CE008B65C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB111763204051CE008B65C1 /* Assets.xcassets */; };
 		AB111767204051CE008B65C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB111765204051CE008B65C1 /* LaunchScreen.storyboard */; };
 		AB111772204051CE008B65C1 /* _1TagCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB111771204051CE008B65C1 /* _1TagCounterTests.swift */; };
+		AB11177D204051F5008B65C1 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11177C204051F5008B65C1 /* View.swift */; };
+		AB11178320406D1D008B65C1 /* Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11178220406D1D008B65C1 /* Count.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		AB11176D204051CE008B65C1 /* 01TagCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 01TagCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB111771204051CE008B65C1 /* _1TagCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1TagCounterTests.swift; sourceTree = "<group>"; };
 		AB111773204051CE008B65C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB11177C204051F5008B65C1 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		AB11178220406D1D008B65C1 /* Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,10 @@
 		AB11175B204051CD008B65C1 /* 01TagCounter */ = {
 			isa = PBXGroup;
 			children = (
-				AB11175C204051CD008B65C1 /* AppDelegate.swift */,
-				AB11175E204051CD008B65C1 /* ViewController.swift */,
+				AB111781204052EF008B65C1 /* API */,
+				AB111780204052E7008B65C1 /* Controller */,
+				AB11177F204052DE008B65C1 /* Model */,
+				AB11177E204052D9008B65C1 /* View */,
 				AB111760204051CD008B65C1 /* Main.storyboard */,
 				AB111763204051CE008B65C1 /* Assets.xcassets */,
 				AB111765204051CE008B65C1 /* LaunchScreen.storyboard */,
@@ -94,6 +100,38 @@
 				AB111773204051CE008B65C1 /* Info.plist */,
 			);
 			path = 01TagCounterTests;
+			sourceTree = "<group>";
+		};
+		AB11177E204052D9008B65C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB11177C204051F5008B65C1 /* View.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AB11177F204052DE008B65C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB11178220406D1D008B65C1 /* Count.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AB111780204052E7008B65C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB11175E204051CD008B65C1 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AB111781204052EF008B65C1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AB11175C204051CD008B65C1 /* AppDelegate.swift */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +237,8 @@
 			files = (
 				AB11175F204051CD008B65C1 /* ViewController.swift in Sources */,
 				AB11175D204051CD008B65C1 /* AppDelegate.swift in Sources */,
+				AB11177D204051F5008B65C1 /* View.swift in Sources */,
+				AB11178320406D1D008B65C1 /* Count.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
